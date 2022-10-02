@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delifu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+
+<header id="header" class="header">
+  <div class="contenedor">
+    <div class="row">
+
+      <div class="four colums">
+        <img src="img/pollo-frito.png" alt="" id="logo">
+      </div>
+
+      <div class="two columns u-pull-right">
+        <ul>
+          <li class="submenu">
+            <img src="img/carrito.png" alt="" id="img-carrito">
+            <div id="carrito">
+              <table id="lista-carrito" class="u-full-width">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar carrito</a>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <ul class="navct">
+            <li class="four columns"><a href="#">Menú</a></li>
+            <li class="four columns"><a href="#">Promociones</a></li>
+            <li class="four columns"><a href="#">Acerca de nosotros</a></li>
+            <li class="four columns"><a href="#">Ubícanos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<div id="hero">
+  <div class="contenedor">
+    <div class="row">
+      <div class="six-colums">
+        <div class="contenido-hero">
+          <h2>Pide tu comida</h2>
+          <p>Encuentra aqui lo mas delicioso</p>
+          <form action="#" id="busqueda" method="post" class="formulario">
+            <input class="u-full-width" type="text" placeholder="Busca tu comida aqui" id="buscador">
+            <input type="submit" id="submit-buscador" class="submit-buscador">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="lista-comida" class="contenedor">
+  <h1 id="encabezado" class="encabezado">Hamburguesas</h1>
+  <div class="row">
+    <div class="four columns">
+      <div class="tarjeta1">
+        <img src="img/burger-con-queso.png" class="u-full-width">
+        <div class="info-tarjeta">
+          <h4>Deliburger con queso</h4>
+          <p>Carne de res a la parrila, tomates, lechuga, mayonesa, pepinillos y cebolla en rodabjas, sobre un pan suave con ajonjolí</p>
+          <p class="precio">$69.99</p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="tarjeta2">
+        <img src="img/burger-bbq.png" class="u-full-width">
+        <div class="info-tarjeta">
+          <h4>Deliburger BBQ</h4>
+          <p>Carne de res a la parrila, mayonesa, lechuga, cebolla, tomate, pepinillos, queso americano, tocino y salsa BBQ</p>
+          <p class="precio">$79.99</p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="tarjeta3">
+        <img src="img/burger-doble-carne.png" class="u-full-width">
+        <div class="info-tarjeta">
+          <h4>Deliburger de doble carne</h4>
+          <p>Dos carnes a la parrila, una rebanada de queso amarillo, lechuga fresca, cebolla crujiente, pepinillos y salsa</p>
+          <p class="precio">$59.99</p>
+          <a href="#" class="u-full-width button-primary button input agregar-carrito">Agregar al carrito</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
